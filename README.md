@@ -1,34 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<h1 align="center">
+  Test front end
+</h1>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
+<!-- summary -->
+<p align="center">
+  <a href="#rocket-getting-started">Getting Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-whats-inside">What's inside?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
+
+
+## :rocket: Getting Started
+
+1. Download the repository
+
+- Using Git
+
+```shell
+  git clone https://github.com/gledson-ss/netflix-frontend
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Installation
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Using `yarn`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```shell
+yarn
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+1. Execution Server
 
-To learn more about Next.js, take a look at the following resources:
+  cd server
+  yarn start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🧐 What's inside?
 
-## Deploy on Vercel
+### :building_construction: Technologies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [React](https://github.com/facebook/react-native)
+  - Ferramenta exigida para a criação das interfaces do app, além de ser uma das que mais gosto de utilizar.
+- [Styled Components](https://styled-components.com/)
+  - Framework muito bom para criação de componentes, pois é bastante flexível e possui muitas ferramentas.
+- [Axios](https://axios-http.com/docs/intro)
+  - Ferramenta que satisfaz o a necessidade de requisições da aplicação.
+- [Typescript](https://www.typescriptlang.org/)
+  - Linguagem de programação exigida pelo desafio, além de aumentar o poder de produtividade combinado com o intellisense de um editor de texto, como o vs code.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### :lipstick: Linter tools
+
+- [ESLint](https://eslint.org/)
+- Ferramenta muito poderosa para permitir um codigo mais padronizado e estiloso, além de conseguir contar com a auto identação combinado com um editor de texto, sem se preocupar em padronizar o codigo manualmente.
+
+### :page_with_curl: Git tools
+
+- [husky](https://www.npmjs.com/package/husky)
+  - Ferramenta que expõe uma API para utilizar os hooks do git utilizando o package.json e assim, pode ser versionado e validar os commits.
+- [commitlint](https://commitizen-tools.github.io/commitizen/)
+  - Ferramenta para manter um padrão e versionamento automatico dos commits.
+
+### 🖌️ Development Methodology
+
+- [atomic design](https://bradfrost.com/blog/post/atomic-web-design/)
+  - Método para manter a estrutura de componetização do projeto mais organizado e padronizado.
+
+## :memo: License
+
+This project is under the MIT license. See the file [LICENSE](LICENSE) for more details.
+
+---
+
+Build with 💙 By [gledson.dev](https://gledson.dev)
