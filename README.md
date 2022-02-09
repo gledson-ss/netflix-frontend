@@ -63,11 +63,6 @@ yarn
 - [commitlint](https://commitizen-tools.github.io/commitizen/)
   - Ferramenta para manter um padrão e versionamento automatico dos commits.
 
-### 🖌️ Development Methodology
-
-- [atomic design](https://bradfrost.com/blog/post/atomic-web-design/)
-  - Método para manter a estrutura de componetização do projeto mais organizado e padronizado.
-
 ## :memo: License
 
 This project is under the MIT license. See the file [LICENSE](LICENSE) for more details.
